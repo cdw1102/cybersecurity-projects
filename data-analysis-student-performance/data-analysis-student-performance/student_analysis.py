@@ -1,24 +1,22 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Simulated student data
-data = {
-    "Student": ["John", "Lisa", "Mark", "Anna", "James", "Emily", "David", "Sarah"],
-    "Score": [85, 92, 78, 88, 90, 73, 95, 80]
-}
-
-df = pd.DataFrame(data)
+# Load dataset
+df = pd.read_csv("student_scores.csv")
 
 # Basic statistics
 average_score = df["Score"].mean()
 highest_score = df["Score"].max()
 lowest_score = df["Score"].min()
+pass_rate = (df["Score"] >= 75).mean() * 100
 
 print("Average Score:", average_score)
 print("Highest Score:", highest_score)
 print("Lowest Score:", lowest_score)
+print("Pass Rate:", pass_rate, "%")
 
 # Visualization
+plt.figure()
 plt.bar(df["Student"], df["Score"])
 plt.xlabel("Students")
 plt.ylabel("Scores")
