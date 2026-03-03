@@ -22,3 +22,9 @@ Simulated dataset of student test scores.
 - Statistical analysis
 - Basic data visualization
 - Python programming
+
+## Key Findings
+- Calculated the average student score to evaluate overall performance.
+- Determined the highest and lowest scores.
+- Calculated pass rate percentage to measure success.
+- Created a visualization to identify trends quickly.
