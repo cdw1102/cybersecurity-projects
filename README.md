@@ -1,7 +1,8 @@
-# cybersecurity-projects# Cybersecurity Projects - Christopher Walker
+
+# Cybersecurity Projects — Christopher Walker
 
 ## About Me
-I am a Computer Science professional with a Master's degree focused on cybersecurity, network security, and system analysis. I am currently pursuing CompTIA Security+.
+I am a Computer Science professional with a Master’s degree focused on cybersecurity, network security, and system analysis. I am currently pursuing CompTIA Security+ (April 2026).
 
 ## Projects
 
